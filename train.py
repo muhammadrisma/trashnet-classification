@@ -2,7 +2,8 @@ import os
 import tensorflow as tf
 from data_preparation import load_and_preprocess_data
 import wandb
-from wandb.integration.keras import WandbCallback
+# from wandb.integration.keras import WandbCallback
+from wandb.keras import WandbEvalCallback
 from dotenv import load_dotenv
 import numpy as np
 from sklearn.metrics import confusion_matrix
