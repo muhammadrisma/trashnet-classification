@@ -4,3 +4,4 @@ wandb
 huggingface_hub
 matplotlib
 python-dotenv
+scikit-learn
