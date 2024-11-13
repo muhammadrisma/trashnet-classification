@@ -5,3 +5,6 @@ huggingface_hub
 matplotlib
 python-dotenv
 scikit-learn
+seaborn
+matplotlib
+numpy
