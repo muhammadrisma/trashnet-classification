@@ -7,8 +7,4 @@ python-dotenv
 scikit-learn
 seaborn
 matplotlib
-<<<<<<< HEAD
 numpy
-=======
-numpy
->>>>>>> 0c541aa727b58663f2fa2acf0c52233f1add21ef
