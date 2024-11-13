@@ -1,0 +1,10 @@
+Found 2024 images belonging to 6 classes.
+Found 503 images belonging to 6 classes.
+Traceback (most recent call last):
+  File "c:\Users\User\Downloads\trash_classification\train.py", line 65, in <module>
+    WandbEvalCallback(validation_data=val_data),
+TypeError: Can't instantiate abstract class WandbEvalCallback with abstract methods add_ground_truth, add_model_predictions
+Traceback (most recent call last):
+  File "c:\Users\User\Downloads\trash_classification\train.py", line 65, in <module>
+    WandbEvalCallback(validation_data=val_data),
+TypeError: Can't instantiate abstract class WandbEvalCallback with abstract methods add_ground_truth, add_model_predictions

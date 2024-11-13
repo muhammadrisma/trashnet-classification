@@ -2,7 +2,8 @@ import os
 import tensorflow as tf
 from data_preparation import load_and_preprocess_data
 import wandb
-from wandb.integration.keras import WandbCallback
+from wandb.integration.keras import WandbMetricsLogger, WandbEvalCallback, WandbCallback
+# from wandb.keras import WandbCallback
 from dotenv import load_dotenv
 import numpy as np
 from sklearn.metrics import confusion_matrix
@@ -60,7 +61,7 @@ history = model.fit(
     validation_data=val_data,
     epochs=config.epochs,
     batch_size=config.batch_size,
-    callbacks=[WandbCallback(save_model=False)]  # Disable model saving, prevent conflict
+    callbacks=[WandbCallback(save_model=(False))], #prevent saving model to wandb / conflict
 )
 
 train_acc = history.history['accuracy'][-1]

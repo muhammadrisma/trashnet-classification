@@ -1,6 +1,10 @@
 tensorflow
 datasets
-wandb==0.17.0
+wandb
 huggingface_hub
 matplotlib
 python-dotenv
+scikit-learn
+seaborn
+matplotlib
+numpy
