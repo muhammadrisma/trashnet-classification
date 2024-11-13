@@ -28,8 +28,8 @@ jobs:
 
     - name: Set up environment variables from GitHub Secrets
       run: |
-        echo "WANDB_API_KEY=${secrets.WANDB_API_KEY}" >> $GITHUB_ENV
-        echo "HF_TOKEN=${secrets.HF_TOKEN}" >> $GITHUB_ENV
+        echo "WANDB_API_KEY=${{ secrets.WANDB_API_KEY }}" >> $GITHUB_ENV
+        echo "HF_TOKEN=${{secrets.HF_TOKEN}}" >> $GITHUB_ENV
 
     - name: Run training script
       run: python train.py
