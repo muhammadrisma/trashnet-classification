@@ -103,3 +103,6 @@ wandb:  View project at: https://wandb.ai/muhammadrisma2003-president-university
 ![alt text]({8CB72533-024A-4196-92D1-E5710484AAEB}.png)
 
 ## Hugingface Model
+https://huggingface.co/muhammadrisma/trashnet/tree/main
+
+![alt text]({AA0A9037-466F-45ED-BAA9-9CA66345A087}.png)
