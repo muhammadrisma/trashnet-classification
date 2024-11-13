@@ -1,0 +1,125 @@
+Found 2024 images belonging to 6 classes.
+Found 503 images belonging to 6 classes.
+Epoch 1/100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+64/64 [==============================] - 136s 2s/step - loss: 1.7722 - accuracy: 0.3073 - val_loss: 1.6386 - val_accuracy: 0.3101
+Epoch 2/100
+
+
+
+
+
+
+
+
+
+13/64 [=====>........................] - ETA: 1:23 - loss: 1.3891 - accuracy: 0.3750
+Traceback (most recent call last):
+  File "c:\Users\User\Downloads\trash_classification\train.py", line 44, in <module>
+    history = model.fit(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\integration\keras\keras.py", line 176, in new_v2
+    return old_v2(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\integration\keras\keras.py", line 176, in new_v2
+    return old_v2(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\integration\keras\keras.py", line 176, in new_v2
+    return old_v2(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\utils\traceback_utils.py", line 65, in error_handler
+    return fn(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\engine\training.py", line 1564, in fit
+    tmp_logs = self.train_function(iterator)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\util\traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\eager\def_function.py", line 915, in __call__
+    result = self._call(*args, **kwds)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\eager\def_function.py", line 947, in _call
+    return self._stateless_fn(*args, **kwds)  # pylint: disable=not-callable
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\eager\function.py", line 2496, in __call__
+    return graph_function._call_flat(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\eager\function.py", line 1862, in _call_flat
+    return self._build_call_outputs(self._inference_function.call(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\eager\function.py", line 499, in call
+    outputs = execute.execute(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\eager\execute.py", line 54, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "c:\Users\User\Downloads\trash_classification\train.py", line 44, in <module>
+    history = model.fit(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\integration\keras\keras.py", line 176, in new_v2
+    return old_v2(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\integration\keras\keras.py", line 176, in new_v2
+    return old_v2(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\wandb\integration\keras\keras.py", line 176, in new_v2
+    return old_v2(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\utils\traceback_utils.py", line 65, in error_handler
+    return fn(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\engine\training.py", line 1564, in fit
+    tmp_logs = self.train_function(iterator)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\util\traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\eager\def_function.py", line 915, in __call__
+    result = self._call(*args, **kwds)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\eager\def_function.py", line 947, in _call
+    return self._stateless_fn(*args, **kwds)  # pylint: disable=not-callable
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\eager\function.py", line 2496, in __call__
+    return graph_function._call_flat(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\eager\function.py", line 1862, in _call_flat
+    return self._build_call_outputs(self._inference_function.call(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\eager\function.py", line 499, in call
+    outputs = execute.execute(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\site-packages\tensorflow\python\eager\execute.py", line 54, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+KeyboardInterrupt

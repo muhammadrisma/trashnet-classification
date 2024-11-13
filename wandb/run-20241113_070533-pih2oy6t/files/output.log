@@ -1,0 +1,63 @@
+Found 2024 images belonging to 6 classes.
+Found 503 images belonging to 6 classes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+64/64 [==============================] - 104s 2s/step - loss: 1.5707 - accuracy: 0.3533 - val_loss: 1.6098 - val_accuracy: 0.3877
+Training Accuracy: 0.35
+
+16/16 [==============================] - 4s 257ms/step - loss: 1.6098 - accuracy: 0.3877
+Test Accuracy: 0.39
+
+
+16/16 [==============================] - 5s 321ms/step
+Confusion Matrix:
+[[ 8  5 26 21 20  0]
+ [10  9 35 19 27  0]
+ [11 11 20 14 26  0]
+ [ 8 12 41 33 24  0]
+ [ 5  4 35 27 25  0]
+ [ 4  1  9  7  6  0]]

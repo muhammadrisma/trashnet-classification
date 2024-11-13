@@ -1,0 +1,6 @@
+tensorflow
+datasets
+wandb==0.17.0
+huggingface_hub
+matplotlib
+python-dotenv

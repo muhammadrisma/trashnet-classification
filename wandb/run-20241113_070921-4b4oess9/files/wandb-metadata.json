@@ -1,0 +1,45 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.10.0",
+    "heartbeatAt": "2024-11-13T00:09:22.987470",
+    "startedAt": "2024-11-13T00:09:21.172004",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "c:\\Users\\User\\Downloads\\trash_classification\\train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": null,
+        "commit": null
+    },
+    "email": "muhammadrisma2003@gmail.com",
+    "root": "C:/Users/User/Downloads/trash_classification",
+    "host": "LAPTOP-PCLBHEAD",
+    "username": "User",
+    "executable": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3110.0,
+        "min": 0.0,
+        "max": 3110.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3110.0,
+            "min": 0.0,
+            "max": 3110.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 242.12530899047852,
+            "used": 234.63411712646484
+        }
+    },
+    "memory": {
+        "total": 7.6985626220703125
+    }
+}

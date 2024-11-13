@@ -1,0 +1,5 @@
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# .env files containing sensitive information
+.env
