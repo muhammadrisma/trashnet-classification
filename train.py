@@ -61,18 +61,7 @@ history = model.fit(
     validation_data=val_data,
     epochs=config.epochs,
     batch_size=config.batch_size,
-<<<<<<< HEAD
     callbacks=[WandbCallback(save_model=(False))], #prevent saving model to wandb / conflict
-=======
-    callbacks=[
-        WandbMetricsLogger(),
-        WandbClfEvalCallback(
-            validation_data=(X_test, y_test),
-            data_table_columns=["idx", "image", "label"],
-            pred_table_columns=["epoch", "idx", "image", "label", "pred"],
-        ),
-    ],
->>>>>>> 0c541aa727b58663f2fa2acf0c52233f1add21ef
 )
 
 train_acc = history.history['accuracy'][-1]

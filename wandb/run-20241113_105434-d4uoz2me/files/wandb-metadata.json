@@ -1,0 +1,45 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.10.0",
+    "heartbeatAt": "2024-11-13T03:54:35.872150",
+    "startedAt": "2024-11-13T03:54:34.123989",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "c:\\Users\\User\\Downloads\\trash_classification\\train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/muhammadrisma/trashnet-classification.git",
+        "commit": "3f40731c265c87e6163264752aace5ed2ad7cf65"
+    },
+    "email": "muhammadrisma2003@gmail.com",
+    "root": "C:/Users/User/Downloads/trash_classification",
+    "host": "LAPTOP-PCLBHEAD",
+    "username": "User",
+    "executable": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1003.0,
+        "min": 0.0,
+        "max": 3110.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1003.0,
+            "min": 0.0,
+            "max": 3110.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 242.12530899047852,
+            "used": 229.4295196533203
+        }
+    },
+    "memory": {
+        "total": 7.6985626220703125
+    }
+}
